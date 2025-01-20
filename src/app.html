@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Demos — Custom Grids</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta property="og:type" content="website" />
+		<meta property="og:image:width" content="1200" />
+		<meta property="og:image:height" content="630" />
+		<meta name="twitter:card" content="summary_large_image" />
+		<link rel="icon" href="%sveltekit.assets%/favicon.svg?v=1.1" />
+		<style>
+			@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+			@font-face {
+				font-family: 'gilroy-extrabold';
+				src: local('Gilroy-ExtraBold'), url('/fonts/Gilroy-ExtraBold.otf') format('opentype');
+				font-weight: 800;
+				font-display: swap;
+			}
+			@font-face {
+				font-family: 'sf-pro-rounded-medium';
+				src: local('SF-Pro-Rounded'), url('/fonts/SF-Pro-Rounded-Medium.otf') format('opentype');
+				font-display: swap;
+			}
+		</style>
+		%sveltekit.head%
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">%sveltekit.body%</div>
+	</body>
+</html>

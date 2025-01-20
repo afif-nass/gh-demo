@@ -1,0 +1,46 @@
+@import 'ag-grid-community/styles/ag-grid.css';
+@import 'ag-grid-community/styles/ag-theme-quartz.css';
+@import './cellFormatters/chips.css';
+@import './cellFormatters/numbers.css';
+@import './toolbar/actionButtons.css';
+
+.ag-theme-quartz {
+	/* Font */
+	--ag-font-size: 0.8rem;
+	/* Borders */
+	--ag-borders: none;
+	--ag-border-radius: 0.25rem;
+	--ag-wrapper-border-radius: 0.25rem;
+	--ag-border-color: theme('colors.border.light');
+	--ag-borders-secondary: solid 1px;
+	--ag-borders-critical: solid 1px;
+	--ag-critical-border-color: theme('colors.border.primary');
+	--ag-row-border-color: theme('colors.border.light');
+	--ag-secondary-border-color: theme('colors.border.secondary');
+	/* Header */
+	--ag-header-foreground-color: theme('colors.text.primary');
+	--ag-header-column-resize-handle-color: theme('colors.border.light');
+	--ag-header-background-color: theme('colors.faint');
+	/* Misc */
+	--ag-data-color: theme('colors.text.primary');
+	--ag-active-color: theme('colors.brand.primary');
+	--ag-range-selection-border-color: theme('colors.brand.primary');
+	--ag-foreground-color: theme('colors.text.primary');
+	--ag-row-hover-color: theme('colors.faint');
+	--ag-value-change-delta-down-color: theme('colors.destructive.primary');
+	--ag-value-change-delta-up-color: theme('colors.affirmative.primary');
+	--ag-value-change-value-highlight-background-color: theme('colors.brand.primaryLight');
+	--ag-checkbox-unchecked-color: theme('colors.border.secondary');
+}
+
+.ag-cell {
+	@apply rounded;
+}
+
+.ag-cell-wrapper {
+	@apply w-fit;
+}
+
+.ag-cell-value {
+	@apply py-[5px] px-[2px] w-full;
+}

@@ -1,0 +1,11 @@
+.bad {
+	@apply [&_p]:text-red-600;
+}
+
+.warning {
+	@apply [&_p]:text-yellow-600;
+}
+
+.good {
+	@apply [&_p]:text-emerald-600;
+}

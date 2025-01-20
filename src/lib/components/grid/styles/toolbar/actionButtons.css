@@ -1,0 +1,3 @@
+.action-btn {
+	@apply flex items-center justify-center gap-[2.5px] font-medium rounded text-text-secondary text-sm;
+}

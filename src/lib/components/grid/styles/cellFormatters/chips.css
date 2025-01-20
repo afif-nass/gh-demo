@@ -1,0 +1,12 @@
+.chip {
+	@apply rounded-full py-[2px] px-3 border-[1px] max-w-fit;
+}
+.dull-chip span {
+	@apply chip bg-muted border-border-primary/30;
+}
+.primary-chip span {
+	@apply chip bg-brand-primaryLight border-brand-primary/30 text-brand-primary;
+}
+.secondary-chip span {
+	@apply chip bg-brand-secondaryLight border-brand-secondary/30 text-brand-secondary;
+}
